@@ -1,7 +1,7 @@
 
 const editProfile = {
   template: `
-    <div>
+    <div ng-if="form">
       <span></span>
       <label>Name<label>
       <input type="text">
@@ -10,7 +10,7 @@ const editProfile = {
       <label>Bio</label>
       <textarea></textarea>
     </div>
-  `
+  ` 
 }
 
 

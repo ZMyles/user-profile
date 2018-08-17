@@ -2,21 +2,22 @@
 const profile = {
   template: `
     <div class="container">
-        <h1>HEY</h1>
-        <span>Just filler Email</span>
+      <img src="css/images/leo.jpg">
+        <h1>Leo</h1>
+        <span>FillerEmail@email.com</span>
         <p>Just filler text<p>
-        <button>Edit</button>
+        <button ng-model="form" ng-init="form = true">Edit</button>
     </div>
   `,
-   controller: function () {
-    const vm = this;
-    vm.userInput = {
-      name: name,
-      contact: contact,
-      bio: bio
-    }
+  //  controller: function () {
+  //   const vm = this;
+  //   vm.userInput = {
+  //     name: name,
+  //     contact: contact,
+  //     bio: bio
+  //   }
     
-   }
+   
 }
 
 
